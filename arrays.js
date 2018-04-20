@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array, element) {
 // take two parameters--- array and element
 // return an array and not modify the original
   newArray = [element, ...array]
-
+  return newArray
 }
 
 
